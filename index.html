@@ -12,6 +12,33 @@
 </head>
 
 <style>
+    input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ff69b4; /* Pink border color */
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #ff69b4; /* Pink background color when checked */
+}
+
+input[type="checkbox"]::before {
+    content: '\2764'; /* Unicode heart character */
+    font-size: 14px;
+    color: white; /* White heart color */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
     .grid-container {
       display: grid;
       grid-template-columns: 55% 50%;
@@ -320,13 +347,13 @@ object-fit: cover;
           
               
                 <div class="mySlides fade">
-                  <div class="numbertext">1 / 8</div>
+                  <div class="numbertext">2 / 8</div>
                   <img src="img/backgrounds/jelly.gif" style="width:100%">
                   <div class="text">Ripleys Aquarium <br> <br>Aug 11, 2019</div>            <br>
                 </div>
 
                 <div class="mySlides fade">
-                  <div class="numbertext">2 / 8</div>
+                  <div class="numbertext">1 / 8</div>
                   <img src="img/backgrounds/IMG_20190811_153922.jpg" style="width:100%">
                   <div class="text">Canadian Museum of Nature <br> <br>Aug 11, 2019</div>           <br>
                 </div>
@@ -499,108 +526,8 @@ object-fit: cover;
            
      
           
-                <ol style="    margin-inline: auto; width: max-content; text-align: left;" >
-                  
-                  <li>Climb a mountain and see a beautiful view in Thailand</li>
-                  <li>Travel together in China and eat lots of delicious food!</li>
-                  <li>Replay it takes two together all over again.</li>
-                  <li>Make a pizza together</li>
-                  <li>Orlando Disney world, need I say more?</li>
-                  <li>Japan - Trip to tokyo, eat and drink authentic sushi and sake</li>
-                  <li>Start a band together and make some music!</li>
-                  <li>Design a website or business together</li>
-                  <li>Go to more paint nights together</li>
-                  <li>See the Lakeshore Christmas lights together again!</li>
-                  <li>Romantic evening in the underwater hotel in Australia</li>
-                  <li>Do couples yoga together</li>
-                  <li>Go swimming in the ocean together</li>
-                  <li>Own a cute little doggy together- hiberbear</li>
-                  <li>Go scuba diving in Great Barrier Reef together</li>
-                  <li>Grow and raise a plant together and watch it grow!</li>
-                  <li>Build a tent together when we go camping</li>
-                  <li>Teach u how to clean a fish - if u dare to haha</li>
-                  <li>Take u tubing on the lake with our boat</li>
-                  <li>Meet your family in person together and get to know them all well</li>
-                  <li>Go skydiving or paragliding together</li>
-                  <li>Go to Lake Louise together and take a vile of water home as a memory</li>
-                  <li>Bike together all around Stanley park island in Vancouver</li>
-                  <li>Go ocean fishing with u on a private chartered boat</li>
-                  <li>Take u flying as my first passenger</li>
-                  <li>Be your driving instructor so u can get your G license!</li>
-                  <li>Watch u get your dream job and finally get the work life balance and salary u deserve!</li>
-                  <li>Get a swimming pass so we can go swimming together whenever we want</li>
-                  <li>Decorate an apartment and pick all the furniture and style together</li>
-                  <li>Go purse shopping so u can get any one that catches your fancy ;)</li>
-                  <li>Watch the white lotus s2 together</li>
-                  <li>Make new year dumplings with your family in china</li>
-                  <li>Bring me to eat authentic luosifen mian and yaxuetang mian</li>
-                  <li>Go see the great wall together in the morning so there's less people and we can enjoy the view ourselves!</li>
-                  <li>Try the Korean spicy noodles challenge with u</li>
-                  <li>Start vlogging or making videos with u about our travel on bilybily</li>
-                  <li>Eat some knife cut noodles together in tangshan</li>
-                  <li>Eat authentic Peking duck in Beijing</li>
-                  <li>Take Ollie and Henry and you to see an aquarium or Ripleys museum together</li>
-                  <li>Buy our first house or chalet/cottage together using first time buyers tax benefit!</li>
-                  <li>Let u eat my grandma's delicious authentic Italian food</li>
-                  <li>Together teach more English with your mom so we can all have our secret language in china so that noone else can understand ;)</li>
-                  <li>Take u acting on a movie set and show u how everything works :D give u the opportunity to be famous and I'll forever be known as danni zou's boyfriend haha</li>
-                  <li>Let u cut my hair</li>
-                  <li>Try some relaxing hot springs in Japan</li>
-                  <li>Play some baseball together at the diamond near my house</li>
-                  <li>Take u rock climbing on our next anniversary</li>
-                  <li>Take a shower together!!!!!!! ;P</li>
-                  <li>Take you to a blue Jays game in Toronto</li>
-                  <li>Have a romantic dinner with an ocean view with just the two of us!</li>
-                  <li>Buy your favorite chips flavor snacks and eat them with u</li>
-                  <li>More and more concerts, doja cat is a must!</li>
-                  <li>Shred the gnarliest rip with you on our snowboards in Whistler mountain</li>
-                  <li>We both become fluent in Chinese and English together so we can have the best communication which will only strengthen our relationship!</li>
-                  <li>Let u teach me some guitar basics</li>
-                  <li>Sing Chinese children songs together with your niece</li>
-                  <li>Work together as ceo and cfo in our own company that makes us millions of dollars</li>
-                  <li>Play cribbage together again every year</li>
-                  <li>Send u cute good morning texts that make your morning</li>
-                  <li>Spontaneously surprise you with breakfast</li>
-                  <li>Take u to Japanese Mario world, itsaa meeee mama Mia!</li>
-                  <li>Rub and scratch your back every day</li>
-                  <li>Just make u laugh and see you smile</li>
-                  <li>Go get a nice massage together when we're stressed out</li>
-                  <li>Play more board games together with your friends, I'll secretly be on your team ;)</li>
-                  <li>Go kiss you again on that park bench beside the Rideau canal and watch the Canada day fireworks</li>
-                  <li>Go enjoy the beautiful Quebec Scandinavian spa</li>
-                  <li>Take you on top of the cn tower</li>
-                  <li>Take you to a dancing class where you can really have some fun!</li>
-                  <li>Go to a casino and win something, bet it all on black!</li>
-                  <li>Carve our initials into an old old tree so that our love will be snapshotted for a long long time!</li>
-                  <li>Do the sexy time in every room of our new apartment</li>
-                  <li>Couples Halloween costumes, this one's wayyyy past due, we need to do this hehe</li>
-                  <li>Go enjoy a beautiful orchestra concert of classic music in the theater</li>
-                  <li>Buy our Tesla for me and mustang for you. Oooooh and the golden Lamborghini (this is a must)</li>
-                  <li>Go horseback riding</li>
-                  <li>Take a road trip to the east coast and smell the fresh ocean air and eat the amazing sea food</li>
-                  <li>Find some lost treasure while metal detecting with u</li>
-                  <li>Go see avatar 2 together ;)</li>
-                  <li>Treat u to a multi course meal dinner at a fancy expensive restaurant</li>
-                  <li>Go skinny dipping</li>
-                  <li>Have a relaxing evening drinking some wine inside the hotub in our backyard</li>
-                  <li>Have movie/date night where we must cuddle up and watch a movie together on our giant projector screen :D</li>
-                  <li>Go see the northern lights together and have a romantic kiss under the stars, hopefully it's not so cold our lips get stuck together!</li>
-                  <li>Read a book together, English and Chinese</li>
-                  <li>Create our very own secret hand shake that noone else knows so that we can tell if the other is ever eaten by a shape shifting alien.</li>
-                  <li>Get tattoos together!</li>
-                  <li>Take you to Italy so you can also experience my motherland!</li>
-                  <li>Make your mom a delicious Italian pizza</li>
-                  <li>Do small renovations on our first home together as a couples project</li>
-                  <li>Grow and tend to a beautiful garden together</li>
-                  <li>Go see the kite flying festival in china</li>
-                  <li>Go see the Mexican pyramids in person to appreciate ancient history!</li>
-                  <li>Go camping in Algonquin park, I'll bring my telescope and we can watch out for aliens and bears haha</li>
-                  <li>Go watch a drive in movie together</li>
-                  <li>Spend all day together kissing just like the early days :D</li>
-                  <li>Go volunteer somewhere together to bring us some food karma!</li>
-                  <li>Go to the gym and stay healthy together!</li>
-                  <li>Have an epic dinner party at our apartment and invite all of our friends!</li>
-                  <li>Love each other forever</li>
+                <ol id="task-list" style="    margin-inline: auto; width: 100%; text-align: left; padding:100px" >
+                 
                 </ol>
     </div>
 </body>
