@@ -5,7 +5,7 @@ function toggleNav() {
         : (e.className += " responsive");
 }
 
-const API_URL = 'https://api.myblossombear.love:5001/api'; // Replace with your Netlify Functions API URL
+const API_URL = 'http://24.150.69.11:5001/api'; // Replace with your Netlify Functions API URL
 
 // Function to add a new task
 const addTask = async (task) => {
